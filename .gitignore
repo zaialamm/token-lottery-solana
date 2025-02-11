@@ -8,6 +8,11 @@
 
 # testing
 /coverage
+test-ledger/
+**/test-ledger/
+*.log
+target/
+setup/test-ledger/rocksdb/*.log
 
 # next.js
 /.next/
@@ -35,3 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 tmp
+
