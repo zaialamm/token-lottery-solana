@@ -1,7 +1,4 @@
 {
-  "name": "template-next-tailwind-counter",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "anchor": "cd anchor && anchor",
     "anchor-build": "cd anchor && anchor build",
@@ -19,6 +16,7 @@
     "@solana/wallet-adapter-react": "0.15.35",
     "@solana/wallet-adapter-react-ui": "0.9.35",
     "@solana/web3.js": "1.98.0",
+    "@switchboard-xyz/on-demand": "^1.2.65",
     "@tabler/icons-react": "^3.11.0",
     "@tanstack/react-query": "^5.51.11",
     "@tanstack/react-query-next-experimental": "^5.51.11",
@@ -35,6 +33,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "chai": "^4.3.4",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "jest": "^29.0.3",
