@@ -731,13 +731,3 @@ pub enum ErrorCode {
 
     
 }
-
-/*/ define accounts for initialize_lottery smart contract
-#[account]
-#[derive(InitSpace)]
-pub struct Player {
-  pub user: Pubkey,
-  pub bump: u8,
-  pub start_time: u64,
-  pub lottery_pot_amount: u64,
-}*/
